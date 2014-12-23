@@ -7,9 +7,14 @@ title: cyberkov.at
 subtitle: "Aus dem Leben gegriffen. Tech, Linux, Open-Source, Neues und ein bisschen Spiele oder so."
 author: Hannes Schaller
 avatar: http://www.gravatar.com/avatar/1ac6fdace38d7c9b6ec6d9289cc61d79
+learn_more_link: /about
 simple_search: https://www.google.com/search
 description:
 author_bio: 'geboren 1984 in Wien, Österreich, vertreibt sich hauptberuflich die Zeit als Techniker bei der <a href="http://www.itsdone.at/" target="_blank">Itsdone EDV Dienstleistungs GmbH</a>  und engagiert sich in seiner Freizeit für <a href="http://www.generationfun.at/">LAN-Parties</a> und Linux.'
+
+links:
+ - title: Impressum
+   url: /impressum
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
