@@ -6,8 +6,10 @@ url: http://cyberkov.at
 title: cyberkov.at
 subtitle: "Aus dem Leben gegriffen. Tech, Linux, Open-Source, Neues und ein bisschen Spiele oder so."
 author: Hannes Schaller
+avatar: http://www.gravatar.com/avatar/1ac6fdace38d7c9b6ec6d9289cc61d79
 simple_search: https://www.google.com/search
 description:
+author_bio: 'geboren 1984 in Wien, Österreich, vertreibt sich hauptberuflich die Zeit als Techniker bei der <a href="http://www.itsdone.at/" target="_blank">Itsdone EDV Dienstleistungs GmbH</a>  und engagiert sich in seiner Freizeit für <a href="http://www.generationfun.at/">LAN-Parties</a> und Linux.'
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -19,7 +21,7 @@ date_format: "ordinal"
 subscribe_rss: /atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
-email: 
+email: admin@cyberkov.at
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -52,7 +54,8 @@ titlecase: true       # Converts page and post titles to titlecase
 
 # list each of the sidebar modules you want to include, in the order you want them to appear.
 # To add custom asides, create files in /source/_includes/custom/asides/ and add them to the list like 'custom/asides/custom_aside_name.html'
-default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.html, asides/pinboard.html, asides/googleplus.html]
+default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.html, asides/googleplus.html]
+# disbled asides/pinboard.html
 
 # Each layout uses the default asides, but they can have their own asides instead. Simply uncomment the lines below
 # and add an array with the asides you want to use.
@@ -75,12 +78,12 @@ twitter_user: cyberkov
 twitter_tweet_button: true
 
 # Google +1
-google_plus_one: false
+google_plus_one: true
 google_plus_one_size: medium
 
 # Google Plus Profile
 # Hidden: No visible button, just add author information to search results
-googleplus_user:
+googleplus_user: '+HannesSchaller'
 googleplus_hidden: false
 
 # Pinboard
