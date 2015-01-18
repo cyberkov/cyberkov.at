@@ -3,6 +3,7 @@ layout: post
 title: "OpenHAB and vim"
 date: 2015-01-15 11:13:36 +0100
 comments: true
+share: true
 categories: openhab, vim
 ---
 

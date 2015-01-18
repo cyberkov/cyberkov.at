@@ -83,7 +83,7 @@ twitter_user: cyberkov
 twitter_tweet_button: true
 
 # Google +1
-google_plus_one: true
+google_plus_one: false
 google_plus_one_size: medium
 
 # Google Plus Profile
@@ -107,4 +107,4 @@ disqus_show_comment_count: true
 google_analytics_tracking_id: "UA-315471-1"
 
 # Facebook Like
-facebook_like: true
+facebook_like: false

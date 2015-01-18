@@ -1,0 +1,15 @@
+{% comment %} Load script if disquss comments are enabled and `page.comments` is either empty (index) or set to true {% endcomment %}
+{% if page.comments != false %}
+<script type="text/javascript">
+(function () {
+    var s = document.createElement('script');
+    var t = document.getElementsByTagName('script')[0];
+
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = '/javascripts/jquery.socialshareprivacy.min.autoload.js';
+
+    t.parentNode.insertBefore(s, t);
+})();
+</script>
+{% endif %}
