@@ -16,6 +16,8 @@ Hannes (oder cyberkov), geboren 1984 in Wien, Österreich, vertreibt sich hauptb
 Ich bin ausserdem <a href="http://www.cacert.org/">CAcert-Assurer</a> mit vollen 150 Punkten. Wer eine Assurance wünscht kann gerne mit mir via unten genannten Möglichkeiten Kontakt aufnehmen.
 
 <strong>Contact</strong>
+
+Ich bin auf [keybase.io](https://keybase.io/cyberkov).
 <ul>
 	<li>Via ICQ: 109759851</li>
 	<li>Via Jabber: cyberkov@jabber.metalab.at</li>
