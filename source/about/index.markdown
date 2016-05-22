@@ -9,7 +9,7 @@ footer: true
 
 <strong>About me</strong>
 
-Hannes (oder cyberkov), geboren 1984 in Wien, Österreich, vertreibt sich hauptberuflich die Zeit als Techniker bei der <a href="http://www.itsdone.at/" target="_blank">Itsdone EDV Dienstleistungs GmbH</a>  und engagiert sich in seiner Freizeit für <a href="http://www.generationfun.at/">LAN-Parties</a> und Linux.
+Hannes (oder cyberkov), geboren 1984 in Wien, Österreich, vertreibt sich hauptberuflich die Zeit als Sysadmin bei der <a href="http://www.anovis.com/" target="_blank">anovis it-services GmbH</a> und engagiert sich in seiner Freizeit für Open Source und Linux.
 
 <strong>Assurance</strong>
 

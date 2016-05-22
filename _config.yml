@@ -10,8 +10,7 @@ avatar: http://www.gravatar.com/avatar/1ac6fdace38d7c9b6ec6d9289cc61d79
 learn_more_link: /about
 simple_search: https://www.google.com/search
 description:
-  author_bio: 'geboren 1984 in Wien, Österreich, vertreibt sich hauptberuflich die Zeit als Sysadmin bei der <a href="http://www.anovis.com/" target="_blank">anovis it-services GmbH</a>  und engagiert sich in seiner Freizeit für Open Source und Linux.'
-
+author_bio: 'geboren 1984 in Wien, Österreich, vertreibt sich hauptberuflich die Zeit als Sysadmin bei der <a href="http://www.anovis.com/" target="_blank">anovis it-services GmbH</a> und engagiert sich in seiner Freizeit für Open Source und Linux.'
 links:
  - title: Impressum
    url: /impressum
