@@ -93,6 +93,7 @@ DEPENDENCIES
   jekyll-paginate
   jekyll-postfiles
   jekyll-redirect-from
+  jekyll-seo-tag
   jekyll-sitemap
   jekyll-theme-hacker
   jekyll-youtube
