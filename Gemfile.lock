@@ -76,13 +76,13 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 4.1.1)
-  jekyll-feed (~> 0.12)
+  jekyll-feed
   jekyll-paginate
   jekyll-redirect-from
   jekyll-sitemap
   jekyll-theme-hacker
   jekyll-youtube
-  tzinfo (~> 1.2)
+  tzinfo
   tzinfo-data
   wdm (~> 0.1.1)
 
