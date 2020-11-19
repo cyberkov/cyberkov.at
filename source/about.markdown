@@ -14,12 +14,13 @@ Hannes (oder cyberkov), geboren 1984 in Wien, Österreich, vertreibt sich hauptb
 <strong>Contact</strong>
 
 <ul>
-        <li>Ich bin auf [keybase.io](https://keybase.io/cyberkov).</li>
-	<li>Via Mail: admin@cyberkov.at</li>
-	<li>Via Twitter: <a href="https://twitter.com/cyberkov">cyberkov</a></li>
-	<li>Via Xing: <a href="https://www.xing.com/profile/Hannes_Schaller2">Hannes Schaller</a></li>
-	<li>Via Facebook: <a href="https://www.facebook.com/cyberkov">cyberkov</a></li>
-	<li>Via LinkedIn: <a href="http://at.linkedin.com/in/cyberkov/">cyberkov/</a></li>
+        <li>Ich bin auf <a href="https://keybase.io/cyberkov">keybase.io</a>.</li>
+	<li>Mail: admin@cyberkov.at</li>
+	<li>Twitter: <a href="https://twitter.com/cyberkov">cyberkov</a></li>
+        <li>GitHub: <a href="https://github.com/cyberkov">cyberkov</a></li>
+	<li>Xing: <a href="https://www.xing.com/profile/Hannes_Schaller2">Hannes Schaller</a></li>
+	<li>Facebook: <a href="https://www.facebook.com/cyberkov">cyberkov</a></li>
+	<li>LinkedIn: <a href="http://at.linkedin.com/in/cyberkov/">cyberkov</a></li>
 </ul>
 
 <strong>About this site</strong>
