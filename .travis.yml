@@ -1,0 +1,13 @@
+addons:
+  apt:
+    packages:
+    - lftp
+language: ruby
+script:
+- bundle exec rake generate
+- bin/publish.sh
+env:
+  global:
+  - secure: AI+73BHZHBEFtvHHgMnDpgtA/Cd+kJ+4C5d2qDQcSNJqIXNDajlr163i8U8H0RzAAuGJtrwJ8nNDFO9QUX5Yp5dn0Th9OGiWXcNXDv+XrD8e+g0dgiRBMIiqyFEtq56+dDXguAg+g/eFos1jF38hEzGh0DddVwJEGYGAuaqDkKo=
+  - secure: sMKYw4UpO6nkAeWvuIzfSh2AhvMwgibg4xMF83f4ua3+ADSLV946wo5wsoeoXEFdIJIBghc14G5TVkA2KWeed5kM2XTREjzxXgB3kC1Wr/j3esaK3HePvbPeuVkxpfb8J3toSTjkqme7zEnnmbv/GQG3sas4BYHs5v5Rcpe1JdE=
+  - secure: mp7etefzENy57CKfllKOrozWbPijYq4PQS4hNelUb06ASF0/y4wxxjc1DvWfDbZPYxiBNbqiYCpm966+vimVqeF91eR1TmCvyPzclic+cIJ/a8oANFM6Rl2P8niptnbQbNMo8Ur1uHd2EIwDTCrOYq0uQbdRb07KHZOVyFBQETM=

@@ -17,11 +17,13 @@ gem "jekyll-theme-hacker"
 # gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed"
-  gem 'jekyll-redirect-from'
+  gem 'jekyll_picture_tag'
+  gem 'jekyll-feed'
   gem 'jekyll-paginate'
+  gem 'jekyll-postfiles'
+  gem 'jekyll-redirect-from'
   gem 'jekyll-sitemap'
-  gem "jekyll-youtube"
+  gem 'jekyll-youtube'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
