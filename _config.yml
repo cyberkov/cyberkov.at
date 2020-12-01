@@ -12,13 +12,14 @@ url: "https://cyberkov.at"
 # Build settings
 theme: jekyll-theme-hacker
 plugins:
-  - jekyll_picture_tag
+  - jekyll-deploy
   - jekyll-feed
   - jekyll-paginate
   - jekyll-postfiles
   - jekyll-redirect-from
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll_picture_tag
 
 source: source
 picture:
@@ -36,3 +37,6 @@ excerpt_link: "Read on &rarr;"  # "Continue reading" link text at the bottom of 
 excerpt_separator: "<!--more-->"
 
 titlecase: true       # Converts page and post titles to titlecase
+
+deploy:
+  - rsync -vaz --delete ./ easyname:/data/web/e11256/html/cyberkov.at/www/
