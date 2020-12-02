@@ -4,7 +4,6 @@ title: "pushing metrics with mqtt"
 date: 2015-01-15 11:37:01 +0100
 comments: true
 categories: openhab, mqtt, monitoring, icinga, nagios
-published: false
 ---
 
 I came across a really good post from J.P.Mens, who wrote the brilliant mqttwarn script to effectively send MQTT messages to different types of services.
