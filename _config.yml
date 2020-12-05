@@ -15,11 +15,10 @@ plugins:
   - jekyll-deploy
   - jekyll-feed
   - jekyll-paginate
-  - jekyll-postfiles
   - jekyll-redirect-from
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll_picture_tag
+  - jekyll-responsive-image
 
 source: source
 picture:
@@ -40,3 +39,11 @@ titlecase: true       # Converts page and post titles to titlecase
 
 deploy:
   - rsync -vaz --delete ./ easyname:/data/web/e11256/html/cyberkov.at/www/
+
+responsive_image:
+  #base_path: source/assets
+  template: _includes/srcset.html
+  sizes:
+    - width: 320
+    - width: 480
+    - width: 800

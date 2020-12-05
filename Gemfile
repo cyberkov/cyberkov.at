@@ -21,12 +21,11 @@ group :jekyll_plugins do
   gem 'jekyll-deploy'
   gem 'jekyll-feed'
   gem 'jekyll-paginate'
-  gem 'jekyll-postfiles'
   gem 'jekyll-redirect-from'
   gem 'jekyll-seo-tag'
   gem 'jekyll-sitemap'
   gem 'jekyll-youtube'
-  gem 'jekyll_picture_tag'
+  gem 'jekyll-responsive-image'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

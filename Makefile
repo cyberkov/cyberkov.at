@@ -11,3 +11,7 @@ sync: build
 
 clean:
 	git clean -Xfd
+
+bundle:
+	sudo apt install libmagickwand-dev
+	bundle install
