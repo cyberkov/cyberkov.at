@@ -3,7 +3,7 @@ build:
 serve:
 	bundle exec jekyll server --watch --drafts
 
-deploy: clean
+deploy: clean build
 	bundle exec jekyll deploy
 
 sync: build
