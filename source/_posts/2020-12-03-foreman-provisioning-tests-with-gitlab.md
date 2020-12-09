@@ -35,9 +35,11 @@ stages:
         - ./build_${OS}.sh
 ```
 
+[hammer](https://github.com/theforeman/hammer-cli) ist das commandline interface für Foreman.
+
 Damit die Authentifizierung bei Foreman funktioniert muss der session support in hammer aktiviert werden. Dies mache ich bereits im hammer-image mit `sed`.
 
-Das `build_ubuntu2004.sh` enthält dann die notwendigen Parameter. Hier fand ich möglichste wenig Dynamik vorteilhaft. Da meine Kollegen gerne solche Commands kopieren wenn mal mehr hosts aufzusetzen sind:
+Das `build_ubuntu2004.sh` enthält dann die notwendigen Parameter. Hier fand ich möglichst wenig Dynamik vorteilhaft, da meine Kollegen gerne solche Commands kopieren wenn mal mehr hosts aufzusetzen sind. Der geneigte Leser kann dies auch gerne mit Makefiles (und [argbash](https://argbash.io/) zB) und/oder anderen Dingen vereinfachen.
 
 ```bash
 hammer \
@@ -119,6 +121,26 @@ echo 'Done waiting.'
         - eval $(ssh-agent -s)
     script:
         - rake spec:${OS_FQDN}
+```
+
+`spec/base_spec.rb` sieht dann zum Beispiel so aus:
+
+```ruby
+require 'spec_helper'
+
+describe port(22) do
+  it { should be_listening }
+end
+
+describe cron do
+  its(:table) do
+    should match %r{/opt/puppetlabs/bin/puppet agent --onetime --no-daemonize}
+  end
+end
+
+describe package('sudo') do
+  it { should be_installed }
+end
 ```
 
 -   cleanup löscht den Server mittels `hammer host delete`:
