@@ -10,6 +10,7 @@ sync: build
 	rsync -avHp --delete _site/ easyname:/data/web/e11256/html/cyberkov.at/www/
 
 clean:
+	rm -R source/assets/resized
 	git clean -Xfd
 
 bundle:
