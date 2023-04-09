@@ -34,10 +34,11 @@
   </div>
   {% endif %} {% include footer.html %}
 
+  {% include cookie-consent.html %}
   {% if site.google_analytics %}
     {% include analytics.html %}
+    {% include matomo.html %}
   {% endif %}
-  {% include matomo.html %}
 </body>
 
 </html>
