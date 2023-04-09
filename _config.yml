@@ -1,28 +1,29 @@
-owner: "Hannes Schaller"
-year: "2020"
+owner: 'Hannes Schaller'
+year: '2020'
 title: cyberkov.at
 author:
-  name: "Hannes Schaller"
-  email: admin@cyberkov.at
-  url: "https://cyberkov.at" # the base hostname & protocol for your site, e.g. http://example.com
+    name: 'Hannes Schaller'
+    email: admin@cyberkov.at
+    url: 'https://cyberkov.at' # the base hostname & protocol for your site, e.g. http://example.com
 description:
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://cyberkov.at"
+baseurl: '' # the subpath of your site, e.g. /blog
+url: 'https://cyberkov.at'
 
 # Build settings
 theme: jekyll-theme-hacker
 plugins:
-  - jekyll-deploy
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-redirect-from
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-responsive-image
+    - jekyll-deploy
+    - jekyll-feed
+    - jekyll-paginate
+    - jekyll-redirect-from
+    - jekyll-seo-tag
+    - jekyll-sitemap
+    - jekyll-responsive-image
+    - jekyll-umlauts
 
 source: source
 picture:
-  source: images/
+    source: images/
 
 permalink: /:year/:month/:day/:title/
 timezone: Europe/Vienna
@@ -30,20 +31,20 @@ encoding: utf-8
 
 future: true
 
-paginate: 10          # Posts per page on the blog index
+paginate: 10 # Posts per page on the blog index
 paginate_path: /page/:num/
-excerpt_link: "Read on &rarr;"  # "Continue reading" link text at the bottom of excerpted articles
-excerpt_separator: "<!--more-->"
+excerpt_link: 'Read on &rarr;' # "Continue reading" link text at the bottom of excerpted articles
+excerpt_separator: '<!--more-->'
 
-titlecase: true       # Converts page and post titles to titlecase
+titlecase: true # Converts page and post titles to titlecase
 
 deploy:
-  - rsync -vaz --delete ./ easyname:/data/web/e11256/html/cyberkov.at/www/
+    - rsync -vaz --delete ./ easyname:/data/web/e11256/html/cyberkov.at/www/
 
 responsive_image:
-  #base_path: source/assets
-  template: _includes/srcset.html
-  sizes:
-    - width: 320
-    - width: 480
-    - width: 800
+    #base_path: source/assets
+    template: _includes/srcset.html
+    sizes:
+        - width: 320
+        - width: 480
+        - width: 800

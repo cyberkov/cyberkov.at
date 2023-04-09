@@ -20,6 +20,7 @@ gem 'jekyll-theme-hacker'
 # gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
+  gem 'jekyll-admin'
   gem 'jekyll-compose'
   gem 'jekyll-deploy'
   gem 'jekyll-feed'
@@ -28,6 +29,7 @@ group :jekyll_plugins do
   gem 'jekyll-responsive-image'
   gem 'jekyll-seo-tag'
   gem 'jekyll-sitemap'
+  gem 'jekyll-umlauts'
   gem 'jekyll-youtube'
 end
 

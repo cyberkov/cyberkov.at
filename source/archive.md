@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Archive
+permalink: /archive
 ---
 
 <section>
@@ -10,7 +11,7 @@ title: Archive
     {% capture firstpostyear %}{{ site.posts[0].date | date: '%Y' }}{% endcapture %}
     {% if currentyear == firstpostyear %}
         <h3>This year's posts</h3>
-    {% else %}  
+    {% else %}
         <h3>{{ firstpostyear }}</h3>
     {% endif %}
 
