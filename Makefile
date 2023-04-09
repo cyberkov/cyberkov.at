@@ -14,5 +14,5 @@ clean:
 	git clean -Xfd
 
 bundle:
-	sudo apt install libmagickwand-dev
+	sudo apt install libmagickwand-dev libmagickcore-dev
 	bundle install
