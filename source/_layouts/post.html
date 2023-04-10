@@ -3,10 +3,10 @@ layout: default
 ---
 
 <article>
+  <small><time datetime="{{ page.date | date_to_xmlschema }}" class="by-line">{{ page.date | date_to_string }}</time> &middot; {% include reading-time.html content=page.content %}</small>
   <h2>{{ page.title }}</h2>
-  <span class="meta"><time datetime="{{ page.date | date_to_xmlschema }}" class="by-line">{{ page.date | date_to_string }}</time> &middot; {% include reading-time.html content=page.content %}</span>
   {{ content }}
   {% if page.tags.size > 0 %}
-  <span class="meta">tags: {{ page.tags | sort | array_to_sentence_string }}</span>
+  <small>tags: <em>{{ page.tags | sort | join: "</em> - <em>" }}</em></small>
   {% endif %}
 </article>
