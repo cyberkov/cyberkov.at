@@ -340,3 +340,13 @@
   location:
       longitude: 11.581980599999952
       latitude: 48.1351253
+- title: 'Zakynthos'
+  country: Griechenland
+  location:
+      longitude: 20.860034
+      latitude: 37.7838349
+- title: 'Kefalonia'
+  country: Griechenland
+  location:
+      longitude: 20.4116
+      latitude: 38.2659815
