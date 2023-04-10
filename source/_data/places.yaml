@@ -1,0 +1,342 @@
+---
+- title: Wien
+  location:
+      longitude: 16.37381890000006
+      latitude: 48.2081743
+- title: Sankt Pölten
+  comment: '2004'
+  location:
+      longitude: 15.638169999999946
+      latitude: 48.20353
+- title: Linz
+  comment: Ars Electronica 2006
+  location:
+      longitude: 14.285830000000033
+      latitude: 48.30694
+- title: Salzburg
+  comment: '2004'
+  location:
+      longitude: 13.055010000000038
+      latitude: 47.80949
+- title: Ried im Innkreis
+  comment: '2004'
+  location:
+      longitude: 13.492719999999963
+      latitude: 48.21272
+- title: Innsbruck
+  location:
+      longitude: 11.404102400000056
+      latitude: 47.2692124
+- title: Bregenz
+  comment: '2014'
+  location:
+      longitude: 9.742309999999975
+      latitude: 47.50075
+- title: Feldkirch
+  comment: '2014'
+  location:
+      longitude: 9.6019
+      latitude: 47.24128
+- title: Graz
+  date: '2003-06-22'
+  location:
+      longitude: 15.439503999999943
+      latitude: 47.070714
+- title: Klagenfurt
+  location:
+      longitude: 14.312224600000036
+      latitude: 46.6364598
+- title: Kernhof
+  date: '2012-05-13'
+  location:
+      longitude: 15.544200000000046
+      latitude: 47.81592999999999
+- title: Tulln an der Donau
+  comment: Die Garten Tulln 2013
+  date: '2013-06-30'
+  location:
+      longitude: 16.060737000000017
+      latitude: 48.3314949
+- title: Bad Mitterndorf
+  comment: Summer Holiday 2013
+  date: '2013-08-11'
+  location:
+      longitude: 13.936008300000026
+      latitude: 47.55463
+- title: Gmunden
+  comment: Summer Holiday 2013
+  date: '2013-08-23'
+  location:
+      longitude: 13.799330000000054
+      latitude: 47.91839
+- title: Dürnstein
+  date: '2010-05-24'
+  location:
+      longitude: 15.51973810000004
+      latitude: 48.3976064
+- title: Dachstein
+  date: '2009-11-29'
+  location:
+      longitude: 13.626002999999969
+      latitude: 47.4685545
+- title: Schladming
+  href: http://www.holzhacker.net/
+  linktext: Holzhackerstube
+  location:
+      longitude: 13.69769275188446
+      latitude: 47.38699152538012
+- title: Los Angeles
+  country: USA
+  location:
+      longitude: -118.2436849
+      latitude: 34.0522342
+  type: :transit
+- title: Hawaii
+  country: USA
+  location:
+      longitude: -155.66585680000003
+      latitude: 19.5429151
+  type: :visit
+- title: Birmingham
+  country: Großbritannien und Nordirland
+  location:
+      longitude: -1.8904009999999971
+      latitude: 52.48624299999999
+  type: :visit
+- title: London
+  country: Großbritannien und Nordirland
+  date: '2011-11-06'
+  location:
+      longitude: -0.12775829999998223
+      latitude: 51.5073509
+  type: :visit
+- title: Cambridge
+  country: Großbritannien und Nordirland
+  location:
+      longitude: 0.12181699999996454
+      latitude: 52.205337
+  type: :visit
+  date: '2011-03-18'
+- title: Oxford
+  country: Großbritannien und Nordirland
+  date: '2010-10-23'
+  location:
+      longitude: -1.2577263000000585
+      latitude: 51.7520209
+  type: :visit
+- title: Edinburgh
+  country: Großbritannien und Nordirland
+  location:
+      longitude: -3.188266999999996
+      latitude: 55.953252
+  type: :visit
+- title: Aberdeen
+  country: Großbritannien und Nordirland
+  location:
+      longitude: -2.094278000000031
+      latitude: 57.149717
+  type: :visit
+- title: Brighton
+  country: Großbritannien und Nordirland
+  date: '2012-12-11'
+  location:
+      longitude: -0.13716299999998682
+      latitude: 50.82253000000001
+  type: :visit
+- title: Dundee
+  country: Großbritannien und Nordirland
+  location:
+      longitude: -2.970721000000026
+      latitude: 56.462018
+  type: :visit
+- title: Glasgow
+  country: Großbritannien und Nordirland
+  location:
+      longitude: -4.251805999999988
+      latitude: 55.864237
+  type: :visit
+- title: Dublin
+  country: Irland
+  location:
+      longitude: -6.260309699999993
+      latitude: 53.3498053
+  type: :visit
+- title: Chania
+  country: Griechenland
+  date: '2009-06-24'
+  location:
+      longitude: 24.01803670000004
+      latitude: 35.5138298
+  type: :visit
+- title: Berlin
+  country: Deutschland
+  location:
+      longitude: 13.404953999999975
+      latitude: 52.52000659999999
+  type: :visit
+- title: Leipzig
+  comment: Games Convention 2006
+  country: Deutschland
+  location:
+      longitude: 12.373074699999961
+      latitude: 51.3396955
+  type: :gallery
+  gallery: flickr,user=cyberkov,set=72157594269149430
+- title: Paris
+  country: Frankreich
+  date: '2011-04-13'
+  location:
+      longitude: 2.3522219000000177
+      latitude: 48.856614
+  type: :visit
+- title: Venedig
+  country: Italien
+  location:
+      longitude: 12.31551509999997
+      latitude: 45.4408474
+  type: :visit
+- title: Madeira
+  country: Portugal
+  date: '2011-08-03'
+  location:
+      longitude: -16.959472300000016
+      latitude: 32.76070740000001
+  type: :visit
+- title: Lissabon
+  country: Portugal
+  location:
+      longitude: -9.139336599999979
+      latitude: 38.7222524
+  type: :visit
+- title: Porto
+  country: Portugal
+  location:
+      longitude: -8.629105299999992
+      latitude: 41.1579438
+  type: :visit
+- title: Cabo da Roca
+  country: Portugal
+  location:
+      longitude: -9.498888899999997
+      latitude: 38.7802778
+  type: :visit
+- title: Santorini
+  country: Griechenland
+  location:
+      longitude: 25.461509200000023
+      latitude: 36.3931562
+  type: :visit
+- title: Nikosia
+  country: Cyprus
+  location:
+      longitude: 33.36666700000001
+      latitude: 35.166667
+  type: :visit
+- title: Ljubljana
+  country: Slowenien
+  location:
+      longitude: 14.505751499999974
+      latitude: 46.0569465
+  type: :visit
+- title: 'Straßburg'
+  country: Frankreich
+  location:
+      longitude: 7.752111300000024
+      latitude: 48.5734053
+  type: :visit
+- title: Athen
+  country: Griechenland
+  location:
+      longitude: 23.729359899999963
+      latitude: 37.983917
+  type: :visit
+- title: Bratislava
+  country: Slowakei
+  date: '2012-11-14'
+  location:
+      longitude: 17.107137299999977
+      latitude: 48.1458923
+  type: :visit
+- title: Orléans
+  comment: '1990'
+  country: Frankreich
+  date: '1990-06-03'
+  location:
+      longitude: 1.9092510000000402
+      latitude: 47.902964
+  type: :visit
+- title: Blois
+  comment: '1990'
+  country: Frankreich
+  date: '1990-06-03'
+  location:
+      longitude: 1.3359474999999748
+      latitude: 47.58609209999999
+  type: :visit
+- title: Amboise
+  comment: '1990'
+  country: Frankreich
+  date: '1990-06-03'
+  location:
+      longitude: 0.9844070000000329
+      latitude: 47.413326
+  type: :visit
+- title: Tours
+  comment: '1990'
+  country: Frankreich
+  date: '1990-06-03'
+  location:
+      longitude: 0.6848400000000083
+      latitude: 47.394144
+  type: :visit
+- title: Auckland
+  country: Neuseeland
+  location:
+      longitude: 174.78503580000006
+      latitude: -37.0082476
+  type: :transit
+- type: :visit
+  title: Suva
+  country: Fiji
+  location:
+      longitude: 178.06503199999997
+      latitude: -17.713371
+- title: Aitutaki
+  country: Cookinseln
+  location:
+      longitude: -159.7852843
+      latitude: -18.8579523
+  type: :visit
+- title: Rarotonga
+  country: Cookinseln
+  location:
+      longitude: -159.7763491
+      latitude: -21.2292371
+  type: :visit
+- title: Tonga
+  country: Tonga
+  location:
+      longitude: -175.198242
+      latitude: -21.178986
+  type: :visit
+- title: Vavaʻu
+  country: Tonga
+  location:
+      longitude: -173.98333300000002
+      latitude: -18.65
+  type: :visit
+- title: Amsterdam
+  country: Niederlande
+  location:
+      longitude: 4.767424099999971
+      latitude: 52.3076865
+- title: Utrecht
+  country: Niederlande
+  location:
+      longitude: 5.0000919
+      latitude: 52.084158
+- title: 'München'
+  country: Deutschland
+  location:
+      longitude: 11.581980599999952
+      latitude: 48.1351253

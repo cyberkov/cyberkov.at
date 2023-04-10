@@ -1,0 +1,32 @@
+---
+:points:
+- :title: Auckland
+  :country: Neuseeland
+  :lon: 174.78503580000006
+  :lat: -37.0082476
+  :type: :transit
+- :type: :visit
+  :title: Suva
+  :country: Fiji
+  :lon: 178.06503199999997
+  :lat: -17.713371
+- :title: Aitutaki
+  :country: Cookinseln
+  :lon: -159.7852843
+  :lat: -18.8579523
+  :type: :visit
+- :title: Rarotonga
+  :country: Cookinseln
+  :lon: -159.7763491
+  :lat: -21.2292371
+  :type: :visit
+- :title: Tonga
+  :country: Tonga
+  :lon: -175.198242
+  :lat: -21.178986
+  :type: :visit
+- :title: Vavaʻu
+  :country: Tonga
+  :lon: -173.98333300000002
+  :lat: -18.65
+  :type: :visit

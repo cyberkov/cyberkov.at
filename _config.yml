@@ -24,11 +24,12 @@ theme: jekyll-theme-hacker
 plugins:
     - jekyll-deploy
     - jekyll-feed
+    - jekyll-maps
     - jekyll-paginate
     - jekyll-redirect-from
+    - jekyll-responsive-image
     - jekyll-seo-tag
     - jekyll-sitemap
-    - jekyll-responsive-image
     - jekyll-umlauts
 
 source: source
@@ -51,6 +52,12 @@ titlecase: true # Converts page and post titles to titlecase
 
 deploy:
     - rsync -vaz --delete ./ easyname:/data/web/e11256/html/cyberkov.at/www/
+
+maps:
+    google:
+        api_key: AIzaSyBezinwrPOcICgU8EJFtv6wghEGnAyu9rA
+        marker_cluster:
+            enabled: false
 
 responsive_image:
     #base_path: source/assets

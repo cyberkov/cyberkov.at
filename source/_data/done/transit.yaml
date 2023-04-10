@@ -1,0 +1,27 @@
+---
+:points:
+- :title: "Zürich"
+  :country: Schweiz
+  :lon: 8.539182500000038
+  :lat: 47.3686498
+  :type: :transit
+- :title: Flughafen Amsterdam Schiphol
+  :country: Niederlande
+  :lon: 4.767424099999971
+  :lat: 52.3076865
+  :type: :transit
+- :title: "München"
+  :country: Deutschland
+  :lon: 11.581980599999952
+  :lat: 48.1351253
+  :type: :transit
+- :title: Düsseldorf
+  :country: Deutschland
+  :lon: 6.773455600000034
+  :lat: 51.2277411
+  :type: :transit
+- :title: Frankfurt
+  :country: Deutschland
+  :lon: 8.682126700000026
+  :lat: 50.1109221
+  :type: :transit

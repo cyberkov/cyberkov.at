@@ -1,0 +1,106 @@
+---
+:points:
+- :title: Wien
+  :country: "Österreich"
+  :lon: 16.37381890000006
+  :lat: 48.2081743
+  :type: :lived
+- :title: Sankt Pölten
+  :comment: '2004'
+  :country: "Österreich"
+  :lon: 15.638169999999946
+  :lat: 48.20353
+  :type: :visit
+- :title: Linz
+  :comment: Ars Electronica 2006
+  :country: "Österreich"
+  :lon: 14.285830000000033
+  :lat: 48.30694
+  :type: :gallery
+  :gallery: flickr,user=cyberkov,set=72157600014697963
+- :title: Salzburg
+  :comment: '2004'
+  :country: "Österreich"
+  :lon: 13.055010000000038
+  :lat: 47.80949
+  :type: :visit
+- :title: Ried im Innkreis
+  :comment: '2004'
+  :country: "Österreich"
+  :lon: 13.492719999999963
+  :lat: 48.21272
+  :type: :visit
+- :title: Innsbruck
+  :country: "Österreich"
+  :lon: 11.404102400000056
+  :lat: 47.2692124
+  :type: :visit
+- :title: Bregenz
+  :comment: '2014'
+  :country: "Österreich"
+  :lon: 9.742309999999975
+  :lat: 47.50075
+  :type: :visit
+- :title: Feldkirch
+  :comment: '2014'
+  :country: Österreich
+  :lon: 9.6019
+  :lat: 47.24128
+  :type: :visit
+- :title: Graz
+  :date: '2003-06-22'
+  :country: "Österreich"
+  :lon: 15.439503999999943
+  :lat: 47.070714
+  :type: :visit
+- :title: Klagenfurt
+  :country: "Österreich"
+  :lon: 14.312224600000036
+  :lat: 46.6364598
+  :type: :visit
+- :title: Kernhof
+  :country: Österreich
+  :date: '2012-05-13'
+  :lon: 15.544200000000046
+  :lat: 47.81592999999999
+  :type: :visit
+- :title: Tulln an der Donau
+  :comment: Die Garten Tulln 2013
+  :country: Österreich
+  :date: '2013-06-30'
+  :lon: 16.060737000000017
+  :lat: 48.3314949
+  :type: :visit
+- :title: Bad Mitterndorf
+  :comment: Summer Holiday 2013
+  :country: Österreich
+  :date: '2013-08-11'
+  :lon: 13.936008300000026
+  :lat: 47.55463
+  :type: :visit
+- :title: Gmunden
+  :comment: Summer Holiday 2013
+  :country: Österreich
+  :date: '2013-08-23'
+  :lon: 13.799330000000054
+  :lat: 47.91839
+  :type: :visit
+- :title: Dürnstein
+  :country: Österreich
+  :date: '2010-05-24'
+  :lon: 15.51973810000004
+  :lat: 48.3976064
+  :type: :visit
+- :title: Dachstein
+  :country: Österreich
+  :date: '2009-11-29'
+  :lon: 13.626002999999969
+  :lat: 47.4685545
+  :type: :visit
+- :title: Schladming
+  :country: Österreich
+  :href: http://www.holzhacker.net/
+  :linktext: Holzhackerstube
+  :lon: 13.69769275188446
+  :lat: 47.38699152538012
+  :type: :visit

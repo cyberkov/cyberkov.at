@@ -24,6 +24,7 @@ group :jekyll_plugins do
   gem 'jekyll-compose'
   gem 'jekyll-deploy'
   gem 'jekyll-feed'
+  gem 'jekyll-maps'
   gem 'jekyll-paginate'
   gem 'jekyll-redirect-from'
   gem 'jekyll-responsive-image'

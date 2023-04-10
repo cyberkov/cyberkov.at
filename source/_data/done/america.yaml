@@ -1,0 +1,12 @@
+---
+:points:
+- :title: Los Angeles
+  :country: USA
+  :lon: -118.2436849
+  :lat: 34.0522342
+  :type: :transit
+- :title: Hawaii
+  :country: USA
+  :lon: -155.66585680000003
+  :lat: 19.5429151
+  :type: :visit
