@@ -5,9 +5,19 @@ author:
     name: 'Hannes Schaller'
     email: admin@cyberkov.at
     url: 'https://cyberkov.at' # the base hostname & protocol for your site, e.g. http://example.com
-description:
+    twitter: cyberkov
+tagline: Aus dem Leben gegriffen
 baseurl: '' # the subpath of your site, e.g. /blog
 url: 'https://cyberkov.at'
+
+social:
+    links:
+        - https://twitter.com/cyberkov
+        - https://github.com/cyberkov
+        - https://keybase.io/cyberkov
+        - https://www.xing.com/profile/Hannes_Schaller2
+        - https://www.facebook.com/cyberkov
+        - http://at.linkedin.com/in/cyberkov/
 
 # Build settings
 theme: jekyll-theme-hacker
@@ -28,6 +38,7 @@ picture:
 permalink: /:year/:month/:day/:title/
 timezone: Europe/Vienna
 encoding: utf-8
+locale: de_at
 
 future: true
 
