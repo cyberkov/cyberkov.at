@@ -350,3 +350,23 @@
   location:
       longitude: 20.4116
       latitude: 38.2659815
+- title: 'La Palma'
+  country: Spanien
+  location:
+      longitude: -17.7830723
+      latitude: 28.6870232
+- title: 'Caorle'
+  country: Italien
+  location:
+      longitude: 12.8652267
+      latitude: 45.6058129
+- title: 'Lignano'
+  country: Italien
+  location:
+      longitude: 12.9658905
+      latitude: 45.6208966
+- title: 'Mainz'
+  country: Deutschland
+  location:
+      longitude: 8.1601309
+      latitude: 49.9653578
