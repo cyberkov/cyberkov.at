@@ -1,10 +1,12 @@
 ---
+title: OpenHAB and vim
 layout: post
-title: "OpenHAB and vim"
-date: 2015-01-15 11:13:36 +0100
+date: '2015-01-15 11:13:36 +0100'
 comments: true
 share: true
-categories: openhab, vim
+tags:
+- openhab,
+- vim
 ---
 
 Recently I started using [OpenHAB](http://openhab.org/) to automate my house. Unfortunately the OpenHAB Designer is a real PAI for the default use case in my opinion.
