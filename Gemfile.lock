@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.8.8)
+    addressable (2.8.9)
       public_suffix (>= 2.0.2, < 8.0)
     base64 (0.3.0)
     bigdecimal (4.0.1)
@@ -14,9 +14,9 @@ GEM
     eventmachine (1.2.7)
     ffi (1.17.3-x86_64-linux-gnu)
     forwardable-extended (2.6.0)
-    google-protobuf (4.33.4-x86_64-linux-gnu)
+    google-protobuf (4.34.0-x86_64-linux-gnu)
       bigdecimal
-      rake (>= 13)
+      rake (~> 13.3)
     http_parser.rb (0.8.1)
     i18n (1.14.8)
       concurrent-ruby (~> 1.0)
@@ -71,7 +71,7 @@ GEM
       listen (~> 3.0)
     jekyll-youtube (1.0.0)
       jekyll
-    json (2.18.0)
+    json (2.19.2)
     kramdown (2.5.2)
       rexml (>= 3.4.4)
     kramdown-parser-gfm (1.1.0)
@@ -88,7 +88,7 @@ GEM
       ruby2_keywords (~> 0.0.1)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
-    public_suffix (7.0.2)
+    public_suffix (7.0.5)
     rack (3.2.5)
     rack-protection (4.2.1)
       base64 (>= 0.1.0)
@@ -108,7 +108,7 @@ GEM
     rouge (4.7.0)
     ruby2_keywords (0.0.5)
     safe_yaml (1.0.5)
-    sass-embedded (1.97.3-x86_64-linux-gnu)
+    sass-embedded (1.98.0-x86_64-linux-gnu)
       google-protobuf (~> 4.31)
     sinatra (4.2.1)
       logger (>= 1.6.0)
@@ -133,7 +133,9 @@ PLATFORMS
   x86_64-linux-gnu
 
 DEPENDENCIES
-  jekyll (~> 4.4.1)
+  base64
+  csv
+  jekyll (~> 4.4)
   jekyll-admin
   jekyll-compose
   jekyll-deploy
@@ -152,4 +154,4 @@ DEPENDENCIES
   webrick
 
 BUNDLED WITH
-   2.4.20
+   2.5.23
